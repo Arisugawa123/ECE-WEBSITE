@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Western Mindanao State University – College of Engineering – Electronics & Communication Engineering Department e‑profile." />
+  <title>WMSU College of Engineering – Electronics & Communication Engineering (ECE)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg" sizes="any" />
+  <link rel="apple-touch-icon" href="assets/logo.jpg" />
+  <meta name="theme-color" content="#ee2e31" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logo.jpg" alt="WMSU COE – ECE Logo" />
+        <div class="brand-text">
+          <div class="brand-dept">Electronics & Communication Engineering Department</div>
+          <div class="brand-university">Western Mindanao State University</div>
+          <div class="brand-college">College of Engineering</div>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">☰</button>
+      <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#faculty">Faculty</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / HOME -->
+  <!-- You can still set a photo via data-hero; the circuit mesh is added as a base. -->
+  <section id="home" class="hero" aria-label="Home" data-hero="assets/CAS07094-Enhanced-NR.jpg">
+    <div class="overlay"></div>
+    <div class="container hero-inner">
+      <div class="home-grid">
+        <div class="home-copy">
+          <h1>Building the Future of Connectivity</h1>
+          <p class="tagline">From signals to systems—WMSU ECE engineers design communications, embedded platforms, and intelligent devices powering the digital world.</p>
+          <ul class="features">
+            <li><span>RF & Wireless</span> Antennas, propagation, SDR</li>
+            <li><span>Signal Processing</span> Audio, image, and video analytics</li>
+            <li><span>Embedded & IoT</span> Microcontrollers, sensors, networks</li>
+            <li><span>Robotics & Control</span> Mechatronics and automation</li>
+          </ul>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#programs">Explore Programs</a>
+            <a class="btn btn-secondary" href="#achievements">See Achievements</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Identity / Logos Showcase + About merged -->
+    <section id="identity" class="section alt logos-showcase" aria-label="Affiliated Logos Showcase and About">
+      <div class="logo-grid" role="list">
+        <div class="logo-card" role="listitem">
+          <img class="logo" src="assets/ece-logo.png" alt="ECE Department Logo" />
+        </div>
+        <div class="logo-card" role="listitem">
+          <img class="logo" src="assets/coe-logo.png" alt="College of Engineering Logo" />
+        </div>
+        <div class="logo-card" role="listitem">
+          <img class="logo" src="assets/wmsu-logo.png" alt="Western Mindanao State University Logo" />
+        </div>
+        <div class="logo-card" role="listitem">
+          <img class="logo" src="assets/ecelious-logo.png" alt="ECELIOUS Logo" />
+        </div>
+      </div>
+      <div class="container about-merged">
+        <div>
+          <h2>About the Department</h2>
+          <p>
+            The Electronics & Communication Engineering (ECE) Department at the Western Mindanao State University
+            College of Engineering prepares students to design, build, and sustain electronic and communication
+            systems that power modern society. Our instruction, research, and extension services emphasize both strong
+            theoretical foundations and hands-on learning.
+          </p>
+          <div class="pill-group">
+            <span class="pill">Signal Processing</span>
+            <span class="pill">Wireless & RF</span>
+            <span class="pill">Embedded Systems</span>
+            <span class="pill">IoT & Networking</span>
+            <span class="pill">Robotics & Control</span>
+          </div>
+        </div>
+        <aside class="card">
+          <h3>At a glance</h3>
+          <ul class="checklist">
+            <li>BS in Electronics Engineering (BSECE)</li>
+            <li>Industry-aligned capstone projects</li>
+            <li>Active research groups and student organizations</li>
+            <li>Laboratories for communications, electronics, embedded, and RF</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Western Mindanao State University – College of Engineering – ECE Department</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
