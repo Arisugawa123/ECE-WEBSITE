@@ -68,7 +68,7 @@
 
   <main id="main">
     <!-- Identity / Logos Showcase + About merged -->
-    <section id="identity" class="section alt logos-showcase" aria-label="Affiliated Logos Showcase and About">
+    <section id="about" class="section alt logos-showcase" aria-label="About the Department and Affiliated Logos">
       <div class="logo-grid" role="list">
         <div class="logo-card" role="listitem">
           <img class="logo" src="assets/ece-logo.png" alt="ECE Department Logo" />
@@ -83,9 +83,10 @@
           <img class="logo" src="assets/ecelious-logo.png" alt="ECELIOUS Logo" />
         </div>
       </div>
-      <div class="container about-merged">
+     <div class="container about-merged">
         <div>
           <h2>About the Department</h2>
+<p class="section-label">Section: About</p>
           <p>
             The Electronics & Communication Engineering (ECE) Department at the Western Mindanao State University
             College of Engineering prepares students to design, build, and sustain electronic and communication
@@ -99,6 +100,26 @@
             <span class="pill">IoT & Networking</span>
             <span class="pill">Robotics & Control</span>
           </div>
+
+          <!-- Class Group Photo (smaller, left) + Department Building Photos (right) -->
+          <div class="about-gallery" aria-label="Department building photos">
+            <figure class="about-photo">
+              <img src="assets/CAS07312-Enhanced-NR.jpg" alt="College of Engineering building photo 1" loading="lazy" onerror="this.onerror=null;this.src='assets/hero-placeholder.svg'" />
+            </figure>
+            <figure class="about-photo">
+              <img src="assets/CAS07311-Enhanced-NR.jpg" alt="College of Engineering building photo 2" loading="lazy" onerror="this.onerror=null;this.src='assets/hero-placeholder.svg'" />
+            </figure>
+            <figure class="about-photo">
+              <img src="assets/CAS07310-Enhanced-NR.jpg" alt="College of Engineering building photo 3" loading="lazy" onerror="this.onerror=null;this.src='assets/hero-placeholder.svg'" />
+            </figure>
+            <figure class="about-photo">
+              <img src="assets/CAS07307-Enhanced-NR.jpg" alt="College of Engineering building photo 4" loading="lazy" onerror="this.onerror=null;this.src='assets/hero-placeholder.svg'" />
+            </figure>
+            <figure class="about-photo">
+              <img src="assets/CAS07306-Enhanced-NR.jpg" alt="College of Engineering building photo 5" loading="lazy" onerror="this.onerror=null;this.src='assets/hero-placeholder.svg'" />
+            </figure>
+          </div>
+
         </div>
         <aside class="card">
           <h3>At a glance</h3>
@@ -110,12 +131,228 @@
           </ul>
         </aside>
       </div>
+
+      <!-- About details enhancement -->
+      <div class="container about-details">
+        <div class="about-divider" role="presentation"></div>
+
+        <div class="about-stats" aria-label="Department statistics">
+          <div class="stat"><div class="stat-value">40</div><div class="stat-label">Students</div></div>
+          <div class="stat"><div class="stat-value">25+</div><div class="stat-label">Faculty & Staff</div></div>
+          <div class="stat"><div class="stat-value">6</div><div class="stat-label">Specialized Labs</div></div>
+          <div class="stat"><div class="stat-value">4</div><div class="stat-label">Student Orgs</div></div>
+        </div>
+
+        <div class="grid two-col">
+          <section class="card gradient">
+            <h3>Mission</h3>
+            <p class="muted">
+              To cultivate engineers with strong analytical foundations and practical skills to design, build,
+              and maintain electronic and communication systems that uplift communities and industries in Mindanao and beyond.
+            </p>
+          </section>
+          <section class="card gradient">
+            <h3>Vision</h3>
+            <p class="muted">
+              To be a leading regional center for education and innovation in communications, signal processing,
+              embedded systems, and automation—recognized for impact-driven research and industry collaboration.
+            </p>
+          </section>
+        </div>
+
+        <section class="labs-section">
+          <h3>Facilities & Laboratories</h3>
+          <div class="grid three-col">
+            <article class="card lab-card">
+              <span class="badge">Communications Lab</span>
+              <p class="muted small">Analog/digital comms, modulation/demodulation, channel coding, SDR experiments.</p>
+            </article>
+            <article class="card lab-card">
+              <span class="badge">Electronics Lab</span>
+              <p class="muted small">Circuit design and testing, PCB prototyping, power electronics, instrumentation.</p>
+            </article>
+            <article class="card lab-card">
+              <span class="badge">Embedded & IoT Lab</span>
+              <p class="muted small">Microcontrollers, sensors, networks, rapid prototyping for connected devices.</p>
+            </article>
+            <article class="card lab-card">
+              <span class="badge">RF & Antenna Lab</span>
+              <p class="muted small">Antenna design, propagation studies, RF front‑end characterization and testing.</p>
+            </article>
+            <article class="card lab-card">
+              <span class="badge">Robotics & Control Lab</span>
+              <p class="muted small">Mechatronics, motion control, autonomous systems, and industrial automation.</p>
+            </article>
+            <article class="card lab-card">
+              <span class="badge">Signal Processing Suite</span>
+              <p class="muted small">Audio, image, video analytics, machine learning for intelligent sensing.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card outcomes-section">
+          <h3>Program Outcomes</h3>
+          <ul class="checklist">
+            <li>Apply mathematics, science, and engineering principles to complex ECE problems.</li>
+            <li>Design and conduct experiments, analyze and interpret data, and validate models.</li>
+            <li>Design systems and components that meet desired needs with realistic constraints.</li>
+            <li>Use modern engineering and computing tools in professional practice.</li>
+            <li>Communicate effectively in multidisciplinary and diverse teams.</li>
+            <li>Practice ethically and understand societal, environmental, and global impacts.</li>
+          </ul>
+        </section>
+
+        <div class="section-divider" role="presentation"></div>
+        <!-- Job Opportunities -->
+        <section id="jobs" class="jobs-section">
+          <h3>Job Opportunities</h3>
+<p class="section-label">Section: Careers</p>
+          <p class="muted">ECE graduates are prepared to work across diverse industries—from telecommunications and electronics to software and emerging tech. Here are common roles and sectors:</p>
+          <div class="jobs-grid">
+            <article class="card job-card">
+              <h4>Telecommunications</h4>
+              <ul class="dot-list small">
+                <li>Network/Systems Engineer</li>
+                <li>RF Planning & Optimization Engineer</li>
+                <li>Field/Operations Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">5G</span>
+                <span class="pill">Fiber</span>
+                <span class="pill">SDR</span>
+              </div>
+            </article>
+            <article class="card job-card">
+              <h4>Embedded & IoT</h4>
+              <ul class="dot-list small">
+                <li>Embedded Systems Engineer</li>
+                <li>Firmware/Hardware Developer</li>
+                <li>IoT Solutions Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">MCUs</span>
+                <span class="pill">RTOS</span>
+                <span class="pill">Sensors</span>
+              </div>
+            </article>
+            <article class="card job-card">
+              <h4>Signal Processing & AI</h4>
+              <ul class="dot-list small">
+                <li>DSP Engineer</li>
+                <li>Computer Vision/Audio ML Engineer</li>
+                <li>R&D Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">DSP</span>
+                <span class="pill">ML</span>
+                <span class="pill">CV</span>
+              </div>
+            </article>
+            <article class="card job-card">
+              <h4>Electronics & Manufacturing</h4>
+              <ul class="dot-list small">
+                <li>Electronics Design Engineer</li>
+                <li>Test/Validation Engineer</li>
+                <li>FAE/Applications Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">PCB</span>
+                <span class="pill">DFM</span>
+                <span class="pill">QA</span>
+              </div>
+            </article>
+            <article class="card job-card">
+              <h4>Robotics & Automation</h4>
+              <ul class="dot-list small">
+                <li>Controls/Automation Engineer</li>
+                <li>Robotics Engineer</li>
+                <li>SCADA/PLC Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">PLC</span>
+                <span class="pill">ROS</span>
+                <span class="pill">Mechatronics</span>
+              </div>
+            </article>
+            <article class="card job-card">
+              <h4>Software & Systems</h4>
+              <ul class="dot-list small">
+                <li>Systems/DevOps Engineer</li>
+                <li>Software Engineer</li>
+                <li>QA/Automation Engineer</li>
+              </ul>
+              <div class="pill-group small">
+                <span class="pill">Linux</span>
+                <span class="pill">C/C++</span>
+                <span class="pill">Python</span>
+              </div>
+            </article>
+          </div>
+          <div class="job-cta">
+            <a class="btn btn-secondary" href="#admissions">Explore Admissions</a>
+            <a class="btn btn-primary" href="#contact">Contact the Department</a>
+          </div>
+        </section>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Western Mindanao State University – College of Engineering – ECE Department</p>
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img class="footer-logo" src="assets/logo.jpg" alt="WMSU COE – ECE Logo" />
+          <div>
+            <div class="brand-dept">Electronics & Communication Engineering Department</div>
+            <div class="brand-university small muted">Western Mindanao State University · College of Engineering</div>
+            <p class="muted small" style="margin-top:8px; max-width: 50ch;">
+              Advancing communications, embedded systems, and intelligent devices through teaching, research, and service.
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Quick Links">
+          <h4>Quick Links</h4>
+          <ul class="link-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="contact-list">
+            <li>Normal Rd, Baliwasan, Zamboanga City</li>
+            <li><a href="mailto:ece@wmsu.edu.ph">ece@wmsu.edu.ph</a></li>
+            <li><a href="tel:+63-000-000-0000">+63 (000) 000 0000</a></li>
+          </ul>
+          <div class="social-links" aria-label="Social media">
+            <a class="social-btn" href="#" aria-label="Facebook">Fb</a>
+            <a class="social-btn" href="#" aria-label="YouTube">Yt</a>
+            <a class="social-btn" href="#" aria-label="LinkedIn">In</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Affiliations</h4>
+          <div class="affil-logos">
+            <img src="assets/ece-logo.png" alt="ECE Department Logo" />
+            <img src="assets/coe-logo.png" alt="College of Engineering Logo" />
+            <img src="assets/wmsu-logo.png" alt="WMSU Logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="year"></span> Western Mindanao State University – College of Engineering – ECE Department</p>
+        <a class="btn-footer" href="#home">Back to top ↑</a>
+      </div>
     </div>
   </footer>
 
